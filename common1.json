@@ -1,0 +1,23 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "common-components"
+  },
+  "components": {
+      "date": {
+        "type": "string",
+        "format": "date",
+        "example": "1970-01-01",
+        "x-chance": "date",
+        "description": "A date in RFC3339 full-date format."
+      },
+      "dateTime": {
+        "type": "string",
+        "format": "date-time",
+        "example": "1996-12-19T16:39:57-08:00",
+        "x-chance": "date",
+        "description": "A date in RFC3339 full-date full-time format."
+      }
+    }
+  }
+
