@@ -4,6 +4,7 @@
     "title": "common-components"
   },
   "components": {
+    "schemas": {
       "date": {
         "type": "string",
         "format": "date",
@@ -20,4 +21,4 @@
       }
     }
   }
-
+}
